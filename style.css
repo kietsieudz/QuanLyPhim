@@ -50,6 +50,10 @@ header .login {
     display: flex;
     justify-content: center;
     align-items: center;
+	border: 2px solid #dadada;
+    border-radius: 7px;
+	border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
 }
 .slideshow-container .slides .text {
     color: #57c5e0;
@@ -437,6 +441,7 @@ footer .container .noi-dung.about p{
 	width: 100%;
 	height: 620px;
 	margin: 50px;
+	padding-bottom: 350px;
 }
 .gheCuoi {
 	text-align: center;
@@ -444,4 +449,38 @@ footer .container .noi-dung.about p{
 .infGhe {
 	display: inline-block;
 	color: #21d1fd;
+}
+#rectangle{
+    width: 29%;
+    height:150px;
+    background:rgb(0, 0, 0);
+	margin: 10px;
+	display: inline-block;
+	border: 2px solid #dadada;
+    border-radius: 7px;
+	border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+	
+}
+.gioiThieuPhim {
+	width: 100%;
+	height: 500px;
+	color: white;
+}
+.gioiThieuPhim img {
+	width: 100px;
+	height: 140px;
+	padding: 5px;
+	float: left;
+}
+.btnMua {
+	height: 45px;
+	width: 250px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+	font-size: x-large;
+	border: 2px solid #dadada;
+    border-radius: 7px;
+	border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
 }
