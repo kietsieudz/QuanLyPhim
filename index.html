@@ -10,6 +10,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
     </head>
 <body>
     <!--Tạo Body gồm logo và form-->
@@ -19,14 +20,29 @@
                 <ion-icon name="logo-react"></ion-icon>
             </div>
             <ul id="main-menu">
-                <li class="item">Kho Phim</li>
+                <a style="
+                    color: #21d1fd;
+                    text-decoration: none;
+                    margin-right: 30px;" 
+                    href="index.html">Kho Phim</a>
                 <li class="item">Cụm Rạp</li>
                 <li class="item">Tin Tức</li>
-                <li class="item">Ứng Dụng</li>
+                <a style="
+                    color: #21d1fd;
+                    text-decoration: none;
+                    margin-right: 30px;
+                    margin-left: 30px;" 
+                    href="muave.html">Mua Vé</a>
                 <li class="item">Admin</li>
-                <a href="muave.html">Mua ve</a>
+                
             </ul>
-            <div class="login">Đăng Nhập</div>
+
+            <label for="gsearch"></label>
+            <input class="ggSearch" type="search" id="gsearch" name="gsearch">
+           <div class="iconSearch">
+            <button class="search">Search</button>
+           </div>
+            <a class="login" href="login.html">Đăng Nhập</a>
         </header>
     </div>
     <!--Tạo slide ảnh -->
@@ -38,23 +54,23 @@
     </div>
     <!--Tạo lựa chọn phim-->
     <div class="dropdown">
-        <select name="dropdown-phim">
+        <select class="dropdown-phim">
             <option value="Doraemon">Phim</option>
             <option value="Dragonball">Dragon Balls</option>
         </select>
-        <select name="dropdown-phim">
+        <select class="dropdown-phim">
             <option value="Doraemon">Rạp</option>
             <option value="Dragonball">Dragon Balls</option>
         </select>
-        <select name="dropdown-phim">
+        <select class="dropdown-phim">
             <option value="Doraemon">Ngày chiếu</option>
             <option value="Dragonball">Dragon Balls</option>
         </select>
-        <select name="dropdown-phim">
+        <select class="dropdown-phim">
             <option value="Doraemon">Suất chiếu</option>
             <option value="Dragonball">Dragon Balls</option>
         </select><br>
-       <a href="muave.html"><input type="button" name="Mua Ve" value="Mua Vé"></a> 
+       <a class="dropdown-mua" href="muave.html">Mua Vé</a> 
     </div>
     <div class="listname">
        <p>LỰA CHỌN PHIM</p>
